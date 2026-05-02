@@ -1,0 +1,20 @@
+git checkout main (sprawdzanie galezi)
+git reset --hard (przywraca pliki do ostatniego commita)
+git clean -fd (usuwa nieśledzone pliki i katalogi)
+git stash					(odloz zmiany lokalne -do schowka)
+git stash clear 			(mozna sie domyslic)
+git pull --rebase origin main (wymus pobranie z git)
+git pull origin main 		(pobiera zmiany z main)
+git add . 					(dodaje wszystko)
+git commit -m "komentarz" 	(commit z komentarzem - obowiazkowy)
+git push origin main 		(wypycha na github)
+git fetch origin 			- pobiera metadane z github (np zeby zobaczyc status poprawny)
+git merge origin 			- merguje zmiany z tym co bylo nowsze na gitchub ( upewnij sie ze jestes na odpowiednim branch)
+git merge --abort
+git branch -r 				- lista zdalnych gałęzi
+git branch NowaGalaz		- stworzenie nowej galezi
+git branch -b NowaGalaz		- stworzenie nowej galezi i przelaczenie na nia
+git switch xxxx
+git merge NowaGalaz 		- będąc na main wciągasz zmiany z NowaGalaz do main
+git merge origin/NowaGalaz 	- będąc nadal na main merge zdalnej gałęzi NowaGalaz do lokalnego main
+git branch -d NowaGalaz		- usuniecie branch
