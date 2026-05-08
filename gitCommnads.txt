@@ -18,3 +18,5 @@ git switch xxxx
 git merge NowaGalaz 		- będąc na main wciągasz zmiany z NowaGalaz do main
 git merge origin/NowaGalaz 	- będąc nadal na main merge zdalnej gałęzi NowaGalaz do lokalnego main
 git branch -d NowaGalaz		- usuniecie branch
+git checkout main -- src/Test    -Weź folder src/Test z brancha main i wstaw go do mojego aktualnego brancha/katalogu roboczego.
+git restore --source=main -- src/Test      -nowsza przywróć folder ze źródła
