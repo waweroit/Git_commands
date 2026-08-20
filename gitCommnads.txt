@@ -13,7 +13,7 @@ git merge origin 			- merguje zmiany z tym co bylo nowsze na gitchub ( upewnij s
 git merge --abort
 git branch -r 				- lista zdalnych gałęzi
 git branch NowaGalaz		- stworzenie nowej galezi
-git branch -b NowaGalaz		- stworzenie nowej galezi i przelaczenie na nia
+git switch -c NowaGalaz		- stworzenie nowej galezi i przelaczenie na nia
 git switch xxxx
 git merge NowaGalaz 		- będąc na main wciągasz zmiany z NowaGalaz do main
 git merge origin/NowaGalaz 	- będąc nadal na main merge zdalnej gałęzi NowaGalaz do lokalnego main
